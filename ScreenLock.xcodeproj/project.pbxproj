@@ -15,6 +15,7 @@
 		0DFB3A2E221F7F9E0069EC5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB3A2D221F7F9E0069EC5E /* main.m */; };
 		0DFB3A38221F7F9E0069EC5E /* ScreenLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB3A37221F7F9E0069EC5E /* ScreenLockTests.m */; };
 		0DFB3A43221F7F9E0069EC5E /* ScreenLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB3A42221F7F9E0069EC5E /* ScreenLockUITests.m */; };
+		0DFB3A52221F825A0069EC5E /* SCMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB3A51221F825A0069EC5E /* SCMyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0DFB3A3E221F7F9E0069EC5E /* ScreenLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFB3A42221F7F9E0069EC5E /* ScreenLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockUITests.m; sourceTree = "<group>"; };
 		0DFB3A44221F7F9E0069EC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFB3A50221F825A0069EC5E /* SCMyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMyView.h; sourceTree = "<group>"; };
+		0DFB3A51221F825A0069EC5E /* SCMyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0DFB3A29221F7F9E0069EC5E /* LaunchScreen.storyboard */,
 				0DFB3A2C221F7F9E0069EC5E /* Info.plist */,
 				0DFB3A2D221F7F9E0069EC5E /* main.m */,
+				0DFB3A50221F825A0069EC5E /* SCMyView.h */,
+				0DFB3A51221F825A0069EC5E /* SCMyView.m */,
 			);
 			path = ScreenLock;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 		0DFB3A13221F7F9B0069EC5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Stephen Cao";
 				TargetAttributes = {
@@ -262,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFB3A52221F825A0069EC5E /* SCMyView.m in Sources */,
 				0DFB3A23221F7F9B0069EC5E /* ViewController.m in Sources */,
 				0DFB3A2E221F7F9E0069EC5E /* main.m in Sources */,
 				0DFB3A20221F7F9B0069EC5E /* AppDelegate.m in Sources */,
